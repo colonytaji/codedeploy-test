@@ -2,5 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: test
-    destination: /home/ec2-user
+    destination: /home/ec2-user/test
 
+hooks:
+  AfterInstall:
+    - location: scripts/timestamp
+      timeout: 300
+      runas: root
