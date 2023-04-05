@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /test
+  - source: test/
     destination: /home/ec2-user
 
