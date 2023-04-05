@@ -1,16 +1,6 @@
 version: 0.0
 os: linux
 files:
-#  - source: /main.py
-  - source: /
+  - source: /test
     destination: /home/ec2-user
 
-#hooks:
-#  BeforeInstall:
-#    - location: env_create.sh
-#      timeout: 300
-#      runas: root
-#  ApplicationStart:
-#    - location: run.sh
-#      timeout: 300
-#      runas: root
