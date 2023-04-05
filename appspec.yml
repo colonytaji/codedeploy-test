@@ -1,7 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /main.py
+#  - source: /main.py
+  - source: /
     destination: /home/ec2-user
 
 #hooks:
