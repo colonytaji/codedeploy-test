@@ -3,6 +3,8 @@ os: linux
 files:
   - source: test
     destination: /home/ec2-user/test
+  - source: test2
+    destination: /home/ec2-user/test2
 
 hooks:
   AfterInstall:
