@@ -1,4 +1,5 @@
 #!/bin/bash
 touch /home/ec2-user/test/* 
+touch /home/ec2-user/test2/* 
 chmod 755 /home/ec2-user/test
 chmod 755 /home/ec2-user/test2
